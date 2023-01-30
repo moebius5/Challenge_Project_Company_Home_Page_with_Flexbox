@@ -1,0 +1,51 @@
+html {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.top-nav {
+    margin: auto 10%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    background-image: url("./images/mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.mission-text-block {
+    background: aliceblue;
+}
+
+.mission-text-block h3 {
+    margin: 1rem auto 0;
+}
+
+.mission-text-block p {
+    margin: 0.3rem 5% 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
